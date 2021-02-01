@@ -1,0 +1,176 @@
+<!-- WELCOME TO MY FIRST FORM EVER -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/ico.png">
+    <title>Workshop</title>
+</head>
+
+<body>
+    
+
+    <div class="container">
+<header class="top-stripe">
+
+        <h1 class="top-text">
+            Participe do workshop que vai mudar o seu negócio
+        </h1> 
+</header>
+
+
+<section>
+
+    <div class="formcontainer">
+        <h2>GARANTA JÁ O SEU LUGAR NO WORKSHOP DO MAIOR ESPECIALISTA EM MARKETING DA ATUALIDADE </h2>
+        <p>Neste evento você vai aprender todos os segredos que vão te fazer ser um empreendedor de sucesso</p>
+
+        <form>
+            <input id="text" name="username" type="text" placeholder="Digite seu nome">
+            <input id="email" name="email" type="email" placeholder="Email">
+            <select name="place">
+                <option value="RJ">Rio de Janeiro</option> 
+                <option value="SP">São Paulo</option>
+                <option value="MG">Minas Gerais</option> 
+                <option value="ES">Espírito Santo</option>
+            </select>
+            <input type="submit" value="INSCREVA-SE"/>
+        </form>
+
+    </div>
+</section> 
+
+<footer>
+   <img src="/images/face.jpg" class="palestrante">
+    <div class="description">
+        <h1>O palestrante</h1>
+
+        <p> Carlos Fontana é conhecido por dar palestrar que abalam as estruturas do Marketing tradicional. Prepare-se para sair do evento com uma nova visão do que é possível ser feito para o seu negócio decolar. </p>
+        <p> Formado em Marketing pela universidade XYZ e fundador da MarkUp, a empresa vencedora de 5 prêmios MarketingBr. </p>
+    </div>
+</footer>
+
+
+
+    </div>    
+</body>
+</html>
+
+<!-- END OF HTML -->
+
+
+
+
+
+
+
+
+
+/* BEGINNING CSS FILE */
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+.container {
+
+    max-width: 1000px;
+    margin: auto;
+
+}
+
+body {
+    background-color: black;
+    
+}
+
+
+header {
+background-color: #80a8f1;
+text-align: center;
+color: white;
+width: 100%;
+padding:15px;
+text-transform:uppercase;
+
+}
+
+.top-text {
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+font-size:26px;
+}
+
+section {
+    padding: 20px;
+    background-image: url(/images/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height:700px;
+}
+.formcontainer {
+max-width: 230px;
+background-color: #FFFFFFBB;
+padding: 25px;
+float:right;
+}
+
+
+h2, p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+input, select {
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: lightseagreen;
+    font-weight: bold;
+}
+
+footer {
+    
+    padding: 40px ;
+    background-color: #202121;
+    text-align: center;
+}
+
+
+.palestrante {
+
+    width: 160px;
+    
+}
+
+
+.description {
+    color: white;
+    display:inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+    
+}
+
+
+.description p, .description h1 {
+
+    margin-bottom: 20px;
+}
+
+<!-- END OF CODE -->
